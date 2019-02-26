@@ -2,7 +2,7 @@
 import unittest
 import calc
 
-class TestClass1(unittest.TestCase):
+class test_class1(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):

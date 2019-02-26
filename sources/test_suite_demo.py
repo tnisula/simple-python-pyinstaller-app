@@ -1,10 +1,10 @@
 import unittest
-from sources.test_class1 import TestClass1
-from sources.test_class2 import TestClass2
+from sources.test_class1 import test_class1
+from sources.test_class2 import test_class2
 
 # Get all tests from TestClass1 and TestClass2
-tc1 = unittest.TestLoader().loadTestsFromTestCase(TestClass1)
-tc2 = unittest.TestLoader().loadTestsFromTestCase(TestClass2)
+tc1 = unittest.TestLoader().loadTestsFromTestCase(test_class1)
+tc2 = unittest.TestLoader().loadTestsFromTestCase(test_class2)
 
 # Create a test suite combining TestClass1 and TestClass2
 smokeTest = unittest.TestSuite([tc1, tc2])
