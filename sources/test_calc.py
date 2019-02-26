@@ -1,17 +1,24 @@
 import unittest
 import calc
 
-class test_class2(unittest.TestCase):
+class TestCalc(unittest.TestCase):
+    """
+    Test the add function from the calc library
+    """
 
-    @classmethod
-    def setUpClass(cls):
-        print()
-        print("*-" * 30)
-        print("Test Class 2 -> class level setUp")
-        print("*-" * 30)
+    def test_add_integers(self):
+        """
+        Test that the addition of two integers returns the correct total
+        """
+        result = calc.add2(1, 2)
+        self.assertEqual(result, 3)
 
-    def setUp(self):
-        print("Test Class 2 -> setUp")
+    def test_add_floats(self):
+        """
+        Test that the addition of two floats returns the correct result
+        """
+        result = calc.add2('10.5', 2)
+        self.assertEqual(result, 12.5)
 
     def test_add_strings(self):
         """
@@ -37,15 +44,5 @@ class test_class2(unittest.TestCase):
         result = calc.add2('abc', '5.5')
         self.assertEqual(result, 'abc5.5')
 
-    def tearDown(self):
-        print("Test Class 2 -> tearDown")
-
-    @classmethod
-    def tearDownClass(cls):
-        print()
-        print("*-" * 30)
-        print("Test Class 2 -> class level tearDown")
-        print("*-" * 30)
-
 if __name__ == '__main__':
-    unittest.main(verbosity=2)
+    unittest.main()
