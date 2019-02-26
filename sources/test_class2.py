@@ -5,6 +5,7 @@ class TestClass2(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
+        print()
         print("*-" * 30)
         print("Test Class 2 -> class level setUp")
         print("*-" * 30)
@@ -41,6 +42,7 @@ class TestClass2(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
+        print()
         print("*-" * 30)
         print("Test Class 2 -> class level tearDown")
         print("*-" * 30)
