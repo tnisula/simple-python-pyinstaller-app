@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="5" time="0.095"><testcase classname="sources.test_suite_demo.TestClass1" file="sources\test_class1.py" line="23" name="test_add_floats" time="0.002373218536376953"><system-out>
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="5" time="0.070"><testcase classname="sources.test_suite_demo.TestClass1" file="sources\test_class1.py" line="23" name="test_add_floats" time="0.0009949207305908203"><system-out>
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 Test Class 1 -&gt; class level setUp
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 Test Class 1 -&gt; setUp
 Test Class 1 -&gt; tearDown
-</system-out></testcase><testcase classname="sources.test_suite_demo.TestClass1" file="sources\test_class1.py" line="16" name="test_add_integers" time="0.0031316280364990234"><system-out>Test Class 1 -&gt; setUp
+</system-out></testcase><testcase classname="sources.test_suite_demo.TestClass1" file="sources\test_class1.py" line="16" name="test_add_integers" time="0.00597381591796875"><system-out>Test Class 1 -&gt; setUp
 Test Class 1 -&gt; tearDown
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 Test Class 1 -&gt; class level tearDown
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
-</system-out></testcase><testcase classname="sources.test_suite_demo.TestClass2" file="sources\test_class2.py" line="23" name="test_add_string_and_integer" time="0.0061228275299072266"><system-out>
+</system-out></testcase><testcase classname="sources.test_suite_demo.TestClass2" file="sources\test_class2.py" line="23" name="test_add_string_and_integer" time="0.0009961128234863281"><system-out>
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 Test Class 2 -&gt; class level setUp
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 Test Class 2 -&gt; setUp
 Test Class 2 -&gt; tearDown
-</system-out></testcase><testcase classname="sources.test_suite_demo.TestClass2" file="sources\test_class2.py" line="31" name="test_add_string_and_number" time="0.0021817684173583984"><system-out>Test Class 2 -&gt; setUp
+</system-out></testcase><testcase classname="sources.test_suite_demo.TestClass2" file="sources\test_class2.py" line="31" name="test_add_string_and_number" time="0.0010347366333007812"><system-out>Test Class 2 -&gt; setUp
 Test Class 2 -&gt; tearDown
-</system-out></testcase><testcase classname="sources.test_suite_demo.TestClass2" file="sources\test_class2.py" line="15" name="test_add_strings" time="0.003872394561767578"><system-out>Test Class 2 -&gt; setUp
+</system-out></testcase><testcase classname="sources.test_suite_demo.TestClass2" file="sources\test_class2.py" line="15" name="test_add_strings" time="0.0020313262939453125"><system-out>Test Class 2 -&gt; setUp
 Test Class 2 -&gt; tearDown
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
