@@ -1,6 +1,6 @@
 import unittest
-from sources.test_class1 import TestClass1
-from sources.test_class2 import TestClass2
+from test_class1 import TestClass1
+from test_class2 import TestClass2
 
 # Get all tests from TestClass1 and TestClass2
 tc1 = unittest.TestLoader().loadTestsFromTestCase(TestClass1)
