@@ -14,7 +14,6 @@ class TestClass1(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        print()
         print("*-" * 30)
         print("Class 1 -> class level setUp")
         print("*-" * 30)
