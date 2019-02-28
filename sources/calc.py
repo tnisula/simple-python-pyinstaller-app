@@ -27,4 +27,6 @@ def add2(arg1, arg2):
         arg2conv = str(arg2conv)
     return arg1conv + arg2conv
 
-# Comment line.
+# Comment line1
+# Comment line2
+# Comment line3
