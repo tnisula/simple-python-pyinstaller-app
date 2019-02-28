@@ -42,6 +42,7 @@ class TestClass2(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
+        print()
         print("*-" * 30)
         print("Class 2 -> class level tearDown")
         print("*-" * 30)
